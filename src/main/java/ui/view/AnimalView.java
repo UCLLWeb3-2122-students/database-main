@@ -41,7 +41,7 @@ public class AnimalView {
             preparedStatement.setInt(3, 3);
             preparedStatement.execute();
 
-            // get all animals
+            //get all animals
             query = String.format("SELECT * from %s.animal order by name;", schema);
             PreparedStatement statementInsert = connection.prepareStatement(query);
             ResultSet resultSet = statementInsert.executeQuery();

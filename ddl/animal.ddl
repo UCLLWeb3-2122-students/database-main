@@ -33,7 +33,7 @@ GRANT ALL ON SCHEMA groep102 TO local_u0015529;
 GRANT ALL ON SEQUENCE groep102.animal_id_seq TO local_u0015529;
 GRANT ALL ON TABLE groep102.animal TO local_u0015529;
 
-GRANT ALL ON SCHEMA groep102 TO local_uu0034562;
+GRANT ALL ON SCHEMA groep102 TO local_u0034562;
 GRANT ALL ON SEQUENCE groep102.animal_id_seq TO local_u0034562;
 GRANT ALL ON TABLE groep102.animal TO local_u0034562;
 
